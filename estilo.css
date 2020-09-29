@@ -1,0 +1,188 @@
+*{
+	margin: 0px;
+}
+
+
+body{
+	background:red;
+	color:black;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+h1 strong{
+	color: black;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	height: inherit;
+}
+.header{
+	background-color: red;
+	color: orange;
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+}
+.header li{
+	height: inherit;
+}
+
+
+.header a{
+	color: white;
+	text-decoration: none;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+	
+}
+.menu{
+	height: inherit;
+}
+
+
+.logo img{
+	width: 100px;
+}
+.imagenes{
+	background: red;
+	background-image: url(img/galletas3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 100px;
+	color: red;
+
+}
+
+.principal-button{
+	width: 250px;
+	height: 40px;
+	background-color: red;
+	border-radius: 24px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.imagenes img{
+	width: 300px
+}
+
+.imagen4{
+	background: yellowgreen;
+	color: brown;
+	padding: 50px;
+	margin: 70px;
+	font-family: 'Rowdies', cursive;
+	text-align: center;
+}
+
+.Historia{
+	background: aqua;
+	text-align: center;
+	font-size: 39px;
+}
+
+.somos h2{
+	color: #99cc00;
+	background-color: green;
+	margin-bottom: 10px
+}
+
+.somos p{
+	margin-bottom: 20px;
+}
+
+.imgen3{
+	background: orange;
+	color: white;
+	text-align: center;
+	
+}
+
+
+.imagen5{
+	background: yellow;
+	color: blue;
+	padding: 50px 70px;
+	margin: 70px 50px;
+}
+/*
+.padre{
+background: white;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: center;
+height: 500px;
+align-items: center;
+}
+.hijo{
+background: blue;
+width: 200px;
+height: 200px;
+border: 2px solid yellowgreen;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+*/
+.aplicar{
+	height: 500px;
+	background: blue;
+	display: flex;
+	color: white;
+	justify-content: center;
+}
+.aplicar-detalles{
+	width: 50%;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.aplicar-detalles img{
+	height: 90%;
+	text-align: center;
+}
+
+
+.container1{
+display: flex;
+background: #99cc00;
+padding: 20px;
+}
+
+.col1-container1{
+	padding: 70px;
+}
+
+
+.col2-container1{
+	padding: 70px;
+}
+
+
+.col3-container1{
+	padding: 70px;
+}
+
+
+
+
